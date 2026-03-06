@@ -523,7 +523,9 @@ export default function Home() {
           </p>
 
           <a
-            href="#"
+            href="https://forms.kommo.com/rcwdzcz"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 font-bold uppercase tracking-widest text-[11px] px-10 py-4 transition-colors duration-150 bg-[#C84B1F] hover:bg-[#B33F18] text-white"
             style={{ fontFamily: "var(--font-barlow)" }}
           >
