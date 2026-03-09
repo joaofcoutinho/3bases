@@ -40,9 +40,16 @@ export default function Home() {
             alt="As Três Bases"
             width={260}
             height={58}
-            className="brightness-0 invert mb-3 anim-fade-in"
+            className="brightness-0 invert mb-2 anim-fade-in"
             style={{ opacity: 0, animationDelay: "0s", animationFillMode: "forwards" }}
           />
+
+          <p
+            className="text-[11px] uppercase tracking-[0.3em] font-semibold mb-3 anim-fade-in"
+            style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-barlow)", opacity: 0, animationDelay: "0.1s", animationFillMode: "forwards" }}
+          >
+            21 de Maio · Centro de Convenções de Vitória
+          </p>
 
           <div
             className="flex items-center gap-3 mb-7 anim-fade-up"
@@ -341,7 +348,7 @@ export default function Home() {
               <ul className="flex flex-col">
                 {[
                   {
-                    text: "Empresários, sócios, diretores e gestores sêniores",
+                    text: "Empresários, diretores e profissionais que ocupam cargos de lideranças",
                     icon: (
                       <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
                         <rect x="3" y="8" width="16" height="11" rx="1.5" stroke="#C84B1F" strokeWidth="1.4"/>
@@ -351,7 +358,7 @@ export default function Home() {
                     ),
                   },
                   {
-                    text: "Quem já foi a eventos demais e quer curadoria e critério",
+                    text: "Empreendedores e times de alta performance",
                     icon: (
                       <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
                         <circle cx="11" cy="11" r="8" stroke="#C84B1F" strokeWidth="1.4"/>
@@ -361,19 +368,10 @@ export default function Home() {
                     ),
                   },
                   {
-                    text: "Quem busca excelência de dentro pra fora",
+                    text: "Quem busca excelência de dentro pra fora e um plano claro de negócios",
                     icon: (
                       <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
                         <path d="M11 2L13.5 8.5H20.5L14.5 12.5L16.5 19L11 15L5.5 19L7.5 12.5L1.5 8.5H8.5L11 2Z" stroke="#C84B1F" strokeWidth="1.4" strokeLinejoin="round"/>
-                      </svg>
-                    ),
-                  },
-                  {
-                    text: "Quem quer sair com um plano claro do que manter, ajustar e parar",
-                    icon: (
-                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-                        <rect x="3" y="3" width="16" height="16" rx="1.5" stroke="#C84B1F" strokeWidth="1.4"/>
-                        <path d="M7 8h8M7 11h5M7 14h6" stroke="#C84B1F" strokeWidth="1.4" strokeLinecap="round"/>
                       </svg>
                     ),
                   },
@@ -516,10 +514,17 @@ export default function Home() {
           </p>
 
           <p
-            className="text-[10px] uppercase tracking-[0.4em] font-semibold mb-10"
+            className="text-[10px] uppercase tracking-[0.4em] font-semibold mb-2"
             style={{ color: "#ffffff", fontFamily: "var(--font-barlow)" }}
           >
             As Três Bases — Maio
+          </p>
+
+          <p
+            className="text-[10px] uppercase tracking-[0.3em] font-semibold mb-10"
+            style={{ color: "rgba(255,255,255,0.5)", fontFamily: "var(--font-barlow)" }}
+          >
+            21 de Maio · Centro de Convenções de Vitória
           </p>
 
           <a
