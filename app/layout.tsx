@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Lista VIP — As Três Bases",
   description:
     "Entre para a Lista VIP do As Três Bases. O encontro para quem quer clareza, direção e aplicação — e prefere método a modismo.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

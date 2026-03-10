@@ -1,4 +1,5 @@
 import Image from "next/image";
+import KommoForm from "./components/KommoForm";
 
 const BG = "#111111";
 
@@ -527,26 +528,7 @@ export default function Home() {
             21 de Maio · Centro de Convenções de Vitória
           </p>
 
-          <a
-            href="https://forms.kommo.com/rcwdzcz"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 font-bold uppercase tracking-widest text-[11px] px-10 py-4 transition-colors duration-150 bg-[#C84B1F] hover:bg-[#B33F18] text-white"
-            style={{ fontFamily: "var(--font-barlow)" }}
-          >
-            Quero entrar na Lista VIP <span>→</span>
-          </a>
-
-          <p
-            className="text-xs mt-8 leading-relaxed max-w-xs mx-auto"
-            style={{ color: "rgba(236, 236, 236, 0.6)", fontFamily: "var(--font-barlow)" }} // Aumentei um pouco a opacidade para ler melhor sobre a foto
-          >
-            Após se inscrever, você será direcionado para o grupo VIP no WhatsApp.
-            <br />
-            <span style={{ color: "rgba(255,255,255,0.3)" }}>
-              Sem spam. Só informações oficiais.
-            </span>
-          </p>
+          <KommoForm />
         </div>
       </section>
 
