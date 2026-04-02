@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main
       className="min-h-screen"
-      style={{ background: BG, fontFamily: "var(--font-barlow)" }}
+      style={{ background: BG, fontFamily: "var(--font-manrope)" }}
     >
       {/* ── HERO ─────────────────────────────────────────────────── */}
       <section className="relative min-h-screen flex flex-col overflow-hidden">
@@ -26,7 +26,7 @@ export default function Home() {
         <nav className="relative z-10 flex items-center justify-end px-6 md:px-16 pt-8 pb-0">
           <span
             className="hidden md:block text-[10px] uppercase tracking-[0.32em]"
-            style={{ color: "rgba(255,255,255,0.3)", fontFamily: "var(--font-barlow)" }}
+            style={{ color: "rgba(255,255,255,0.3)", fontFamily: "var(--font-manrope)" }}
           >
             Maio · 2025
           </span>
@@ -47,7 +47,7 @@ export default function Home() {
 
           <p
             className="text-[11px] uppercase tracking-[0.3em] font-semibold mb-3 anim-fade-in"
-            style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-barlow)", opacity: 0, animationDelay: "0.1s", animationFillMode: "forwards" }}
+            style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-manrope)", opacity: 0, animationDelay: "0.1s", animationFillMode: "forwards" }}
           >
             21 de Maio · Centro de Convenções de Vitória
           </p>
@@ -62,7 +62,7 @@ export default function Home() {
             />
             <p
               className="text-[10px] uppercase tracking-[0.35em] font-semibold"
-              style={{ color: "#ffffff", fontFamily: "var(--font-barlow)" }}
+              style={{ color: "#ffffff", fontFamily: "var(--font-manrope)" }}
             >
               Lista VIP · Save the Date
             </p>
@@ -75,7 +75,7 @@ export default function Home() {
           <h1
             className="font-extrabold uppercase leading-[0.92] mb-6 anim-fade-up"
             style={{
-              fontFamily: "var(--font-barlow-condensed)",
+              fontFamily: "var(--font-manrope)",
               fontSize: "clamp(2.6rem, 6vw, 4.8rem)",
               color: "white",
               animationDelay: "0.4s",
@@ -98,7 +98,7 @@ export default function Home() {
 
           <p
             className="text-base md:text-lg leading-relaxed mb-10 max-w-md anim-fade-up"
-            style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-barlow)", animationDelay: "0.58s" }}
+            style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-manrope)", animationDelay: "0.58s" }}
           >
             O encontro para quem quer clareza, direção e aplicação —{" "}
             e prefere{" "}
@@ -110,7 +110,7 @@ export default function Home() {
           <a
             href="#inscricao"
             className="inline-flex items-center gap-3 font-bold uppercase tracking-widest text-[11px] px-8 py-3.5 transition-colors duration-150 bg-[#C84B1F] hover:bg-[#B33F18] text-white anim-fade-up"
-            style={{ fontFamily: "var(--font-barlow)", animationDelay: "0.72s" }}
+            style={{ fontFamily: "var(--font-manrope)", animationDelay: "0.72s" }}
           >
             Quero entrar na Lista VIP <span>→</span>
           </a>
@@ -136,7 +136,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6 md:px-16 py-10 md:py-12">
           <p
             className="text-base md:text-xl leading-relaxed font-light text-center"
-            style={{ color: "rgba(255,255,255,0.5)", fontFamily: "var(--font-barlow)" }}
+            style={{ color: "rgba(255,255,255,0.5)", fontFamily: "var(--font-manrope)" }}
           >
             O empresário hoje vive cercado por{" "}
             <span style={{ color: "rgba(255,255,255,0.88)", fontWeight: 600 }}>excesso de conteúdo</span>
@@ -164,14 +164,14 @@ export default function Home() {
           >
             <p
               className="text-sm uppercase tracking-[0.3em] font-semibold"
-              style={{ color: "rgba(255,255,255,0.88)", fontFamily: "var(--font-barlow)" }}
+              style={{ color: "rgba(255,255,255,0.88)", fontFamily: "var(--font-manrope)" }}
             >
               Lista VIP
             </p>
             <h2
               className="font-extrabold uppercase leading-[0.88] text-right"
               style={{
-                fontFamily: "var(--font-barlow-condensed)",
+                fontFamily: "var(--font-manrope)",
                 fontSize: "clamp(2.2rem, 5vw, 4rem)",
                 color: "rgba(255,255,255,0.88)",
               }}
@@ -287,7 +287,7 @@ export default function Home() {
                   <p
                     className="font-bold uppercase leading-tight mb-3"
                     style={{
-                      fontFamily: "var(--font-barlow-condensed)",
+                      fontFamily: "var(--font-manrope)",
                       fontSize: "clamp(1.35rem, 2.5vw, 1.75rem)",
                       color: "rgba(255,255,255,0.88)",
                     }}
@@ -296,7 +296,7 @@ export default function Home() {
                   </p>
                   <p
                     className="text-sm leading-relaxed"
-                    style={{ color: "rgba(255,255,255,0.38)", fontFamily: "var(--font-barlow)" }}
+                    style={{ color: "rgba(255,255,255,0.38)", fontFamily: "var(--font-manrope)" }}
                   >
                     {item.text}
                   </p>
@@ -317,14 +317,14 @@ export default function Home() {
           <div className="mb-16">
             <p
               className="text-[9px] uppercase tracking-[0.4em] font-semibold mb-4"
-              style={{ color: "rgba(233, 233, 233, 0.76)", fontFamily: "var(--font-barlow)" }}
+              style={{ color: "rgba(233, 233, 233, 0.76)", fontFamily: "var(--font-manrope)" }}
             >
               Critério
             </p>
             <h2
               className="font-extrabold uppercase leading-[0.9]"
               style={{
-                fontFamily: "var(--font-barlow-condensed)",
+                fontFamily: "var(--font-manrope)",
                 fontSize: "clamp(2.8rem, 6vw, 5rem)",
                 color: "rgba(255,255,255,0.92)",
               }}
@@ -341,7 +341,7 @@ export default function Home() {
             <div className="md:pr-16 pb-14 md:pb-0" style={{ borderRight: "1px solid rgba(255,255,255,0.08)" }}>
               <p
                 className="text-sm uppercase tracking-[0.3em] font-semibold mb-8"
-                style={{ color: "#ffffff", fontFamily: "var(--font-barlow)" }}
+                style={{ color: "#ffffff", fontFamily: "var(--font-manrope)" }}
               >
                 — Para quem é
               </p>
@@ -396,7 +396,7 @@ export default function Home() {
                       style={{
                         fontSize: "clamp(1.1rem, 2vw, 1.35rem)",
                         color: "rgba(255,255,255,0.92)",
-                        fontFamily: "var(--font-barlow)",
+                        fontFamily: "var(--font-manrope)",
                       }}
                     >
                       {item.text}
@@ -410,13 +410,13 @@ export default function Home() {
             <div className="md:pl-16 pt-14 md:pt-0">
               <p
                 className="text-sm uppercase tracking-[0.3em] font-semibold mb-2"
-                style={{ color: "rgb(255, 255, 255)", fontFamily: "var(--font-barlow)" }}
+                style={{ color: "rgb(255, 255, 255)", fontFamily: "var(--font-manrope)" }}
               >
                 — Para quem não é
               </p>
               <p
                 className="text-sm mb-8"
-                style={{ color: "rgb(255, 255, 255)", fontFamily: "var(--font-barlow)" }}
+                style={{ color: "rgb(255, 255, 255)", fontFamily: "var(--font-manrope)" }}
               >
                 Se você busca:
               </p>
@@ -447,7 +447,7 @@ export default function Home() {
                         fontSize: "clamp(1.1rem, 2vw, 1.35rem)",
                         color: "rgba(255,255,255,0.45)",
                         textDecorationColor: "rgba(200,75,31,0.35)",
-                        fontFamily: "var(--font-barlow)",
+                        fontFamily: "var(--font-manrope)",
                       }}
                     >
                       {text}
@@ -462,7 +462,7 @@ export default function Home() {
               >
                 <p
                   className="font-medium leading-relaxed"
-                  style={{ fontSize: "clamp(0.9rem, 1.4vw, 1rem)", color: "rgba(255,255,255,0.65)", fontFamily: "var(--font-barlow)" }}
+                  style={{ fontSize: "clamp(0.9rem, 1.4vw, 1rem)", color: "rgba(255,255,255,0.65)", fontFamily: "var(--font-manrope)" }}
                 >
                   Este não é o seu lugar.{" "}
                   <span style={{ color: "rgba(255,255,255,0.88)", fontWeight: 700 }}>
@@ -493,7 +493,7 @@ export default function Home() {
           <p
             className="font-bold uppercase leading-none mb-3"
             style={{
-              fontFamily: "var(--font-barlow-condensed)",
+              fontFamily: "var(--font-manrope)",
               fontSize: "clamp(1.8rem, 4vw, 3.2rem)",
               color: "rgba(255, 255, 255, 0.81)",
             }}
@@ -503,7 +503,7 @@ export default function Home() {
           <p
             className="font-extrabold uppercase leading-none mb-12"
             style={{
-              fontFamily: "var(--font-barlow-condensed)",
+              fontFamily: "var(--font-manrope)",
               fontSize: "clamp(1.8rem, 4vw, 3.2rem)",
               background: "linear-gradient(to right, #4B8EDB, #9B4CB8, #C84B1F)",
               WebkitBackgroundClip: "text",
@@ -516,14 +516,14 @@ export default function Home() {
 
           <p
             className="text-[10px] uppercase tracking-[0.4em] font-semibold mb-2"
-            style={{ color: "#ffffff", fontFamily: "var(--font-barlow)" }}
+            style={{ color: "#ffffff", fontFamily: "var(--font-manrope)" }}
           >
             As Três Bases — Maio
           </p>
 
           <p
             className="text-[10px] uppercase tracking-[0.3em] font-semibold mb-10"
-            style={{ color: "rgba(255,255,255,0.5)", fontFamily: "var(--font-barlow)" }}
+            style={{ color: "rgba(255,255,255,0.5)", fontFamily: "var(--font-manrope)" }}
           >
             21 de Maio · Centro de Convenções de Vitória
           </p>
@@ -548,7 +548,7 @@ export default function Home() {
           />
           <p
             className="text-[20px] tracking-widest uppercase"
-            style={{ color: "rgba(255, 255, 255, 0.93)", fontFamily: "var(--font-barlow)" }}
+            style={{ color: "rgba(255, 255, 255, 0.93)", fontFamily: "var(--font-manrope)" }}
           >
             2026
           </p>

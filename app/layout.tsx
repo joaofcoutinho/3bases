@@ -1,18 +1,12 @@
 import type { Metadata } from "next";
-import { Barlow, Barlow_Condensed } from "next/font/google";
+import { Manrope } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
-const barlow = Barlow({
-  variable: "--font-barlow",
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const barlowCondensed = Barlow_Condensed({
-  variable: "--font-barlow-condensed",
-  subsets: ["latin"],
-  weight: ["600", "700", "800"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -52,7 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           `}
         </Script>
       </head>
-      <body className={`${barlow.variable} ${barlowCondensed.variable} antialiased`}>
+      <body className={`${manrope.variable} antialiased`}>
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-5MSLB4GN"
