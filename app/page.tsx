@@ -28,7 +28,7 @@ export default function Home() {
             className="hidden md:block text-[10px] uppercase tracking-[0.32em]"
             style={{ color: "rgba(255,255,255,0.3)", fontFamily: "var(--font-manrope)" }}
           >
-            Maio · 2025
+            28 de Maio · 2025
           </span>
         </nav>
 
@@ -49,7 +49,7 @@ export default function Home() {
             className="text-[11px] uppercase tracking-[0.3em] font-semibold mb-3 anim-fade-in"
             style={{ color: "rgba(255,255,255,0.55)", fontFamily: "var(--font-manrope)", opacity: 0, animationDelay: "0.1s", animationFillMode: "forwards" }}
           >
-            21 de Maio · Centro de Convenções de Vitória
+            28 de Maio · Centro de Convenções de Vitória
           </p>
 
           <div
@@ -525,7 +525,7 @@ export default function Home() {
             className="text-[10px] uppercase tracking-[0.3em] font-semibold mb-10"
             style={{ color: "rgba(255,255,255,0.5)", fontFamily: "var(--font-manrope)" }}
           >
-            21 de Maio · Centro de Convenções de Vitória
+            28 de Maio · Centro de Convenções de Vitória
           </p>
 
           <KommoForm />
